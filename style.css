@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white
+    }
+
+/* Style du header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: chocolate;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    width: 100%;
+
+}
+
+.titre {
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+
+.lien .bande {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0px 50px;
+}
+
+.lien .bande li {
+    margin: 0 15px;
+}
+
+.lien .bande li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.lien .bande li a:hover {
+    text-decoration: underline;
+}
+
+    
+    .hero{
+     color: white; 
+     text-transform: uppercase; 
+     font-style: italic;
+     padding:5% 0% 0% 0%; 
+     text-align: center;
+     font-size: 18px;
+
+    }
+ 
+    
+    .image{
+    display: flex;
+    
+    }
+
+    .para{
+    color: white; 
+    font-weight: bold; 
+    font-family: 'Calisto MT';
+    font-size: x-large; 
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    padding:2%;
+    }
+     
+     .titre2{
+    padding-left: 450px;
+    text-transform: uppercase;
+    color: #232c77;
+    font-style: italic;
+   }
+
+   .para1{
+    color: #232c77;
+    font-weight: bold; 
+    font-family: 'Calisto MT';
+    font-size: x-large; 
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    text-align: justify
+    
+   }
+   .image1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 320px; 
+    justify-content: space-between;
+   }
+   .paro{
+    color: #232c77;
+    font-weight: bold; 
+    font-family: 'Calisto MT';
+    font-size: x-large; 
+    width: 80%;
+    padding: 2%;
+    margin: 0 auto;
+    text-align: justify
+    
+   }
+   .picture{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 320px; 
+    justify-content: space-between;
+   }
+   .nando{
+    color: #232c77;
+    font-weight: bold; 
+    font-family: 'Calisto MT';
+    font-size: x-large;
+    padding: 2%;
+    margin:0 auto;
+    text-align: justify 
+     }
+   .dad{
+    color:#232c77;
+    font-weight: bold; 
+    font-family: 'Calisto MT';
+    font-size: x-large;
+    padding: 2%; 
+    margin:0 auto;
+    text-align: justify;
+   }
+   .mama{
+    padding-left: 450px;
+    text-transform: uppercase;
+    color: #232c77;
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Calisto MT';
+   }
+   .secte{
+    background-image: url(./Images/background.png);
+    padding: 20px 0;
+    background-color: red;
+   }
+ /* Style du footer */
+.foot {
+    text-align: center;
+    padding: 15px 0;
+    background-color: chocolate;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
+
+#pass{
+    margin-top: 6px;
+    display: none;
+    position: absolute;
+    background-color:chocolate ;
+    width: 130px;
+}
+#pass li{
+    list-style: none;
+    margin-bottom: 6px;
+    color: #232c77;
+    cursor: pointer;
+
+    
+}
+#pass li a{
+    text-decoration: none;
+}

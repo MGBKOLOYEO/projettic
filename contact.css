@@ -1,0 +1,127 @@
+/* Style du header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: chocolate;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.titre {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.lien .bande {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lien .bande li {
+    margin: 0 10px;
+}
+
+.lien .bande li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lien .bande li a:hover {
+    text-decoration: underline;
+}
+
+/* Style du formulaire */
+.forme {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: chocolate;
+}
+
+/* Style du footer */
+.foot {
+    text-align: center;
+    padding: 15px 0;
+    background-color: chocolate;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
+#pass{
+    margin-top: 6px;
+    display: none;
+    position: absolute;
+    background-color:chocolate ;
+    width: 130px;
+}
+#pass li{
+    list-style: none;
+    margin-bottom: 6px;
+    color: #232c77;
+    cursor: pointer;
+
+    
+}
+#pass li a{
+    text-decoration: none;
+}

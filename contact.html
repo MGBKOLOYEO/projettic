@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+
+    <header>
+        <nav class="header">
+            <div class="titre">SINE-IVOIR</div>
+               <div class="lien">
+                  <ul class="bande">
+                      <li><a href="./index.html">Acceuil</a></li>
+                      <li><a href="./tradition.html">Tradition</a></li>
+                      <li id="box"><a href="#">Activité Agricole </a>
+                           <ul id="pass">
+                              <li><a href="anacarde.html">anacarde</a></li>
+                              <li><a href="coton.html">coton</a></li>
+                              <li><a href="mangue.html">mangue</a></li>
+                           </ul>
+                      
+                     </li>
+                     <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+        </nav>
+    </header>
+    <div class="forme">
+        <form action="/submit-form" method="post">
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required><br><br>
+          
+            <label for="email">Adresse e-mail :</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+          
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+          
+            <button type="submit">Envoyer</button>
+          </form>
+    </div>
+    <footer class="foot">
+        <div>
+          <p>&copy; 2025 SINE-IVOIR. Tous droits réservés.</p>
+        </div>
+        <div>
+          <p>Suivez-nous :</p>
+          <a href="https://www.facebook.com/votreentreprise">Facebook</a> |
+          <a href="https://www.twitter.com/votreentreprise">Twitter</a> |
+          <a href="https://www.instagram.com/votreentreprise">Instagram</a>
+        </div>
+      </footer>
+           
+      <script src="main.js"></script>   
+</body>
+</html>
